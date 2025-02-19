@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body id="contactmebody">
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="homepage.html" id="homepage">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html" id="aboutme">About Me</a>
+                    </li>
+                    <li>
+                        <a href="resume.html" id="resume">Resume</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html" id="contactme">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>        
+        <h1>Contact Me</h1>
+        <hr>
+        <form>
+            <fieldset id="fieldset">
+                <legend>Enter your information:</legend>
+                <p>
+                    <label for="fname" id="labelfirstname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Jane" autocomplete="on" required autofocus>
+                </p>
+                <p>
+                    <label for="lname" id="labellastname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Doe" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="email" id="labelemail">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="user123@gmail.com" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="subject" id="labelsubject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                </p>
+                <p>
+                    <label for="message style=" id="labelmessage">Your message:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message."></textarea>
+                </p>
+                <input type="submit" value="Submit">
+            </fieldset>
+            <br>
+        </form>
+    </body>
+    
+</html>

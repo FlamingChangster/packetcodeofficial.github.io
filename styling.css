@@ -1,0 +1,128 @@
+            #homepagebody {
+                background-color: rgb(119, 248, 119);
+                height: 125vh;  
+                margin-top: 50px;
+                padding: 30px;    
+                background-size: cover;  
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            } 
+            #aboutmebody {
+                background-color: rgb(253, 170, 249);
+                height: 125vh;  
+                margin-top: 80px;
+                padding: 30px;    
+                background-size: cover;  
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;       
+            }
+            #resumebody {
+                background-color: rgb(2, 204, 154);
+                height: 125vh;  
+                margin-top: 80px;
+                padding: 30px;    
+                background-size: cover;  
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #contactmebody {
+                background-color: rgb(255, 216, 87);
+                height: 125vh;  
+                margin-top: 80px;
+                padding: 30px;    
+                background-size: cover;  
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            header {  
+            background-color: rgb(247, 181, 217);  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 5px;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            }  
+            header * {  
+            display: inline;  
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            color: blue;  
+            text-decoration: none;  
+            }  
+            #homepage {
+                color: rgb(168, 84, 117)
+            }
+            #aboutme {
+                color: rgb(107, 73, 161)
+            }
+            #resume {
+                color: rgb(45, 122, 86)
+            }
+            #contactme {
+                color: rgb(165, 120, 61)
+            }
+            #homepageheader {
+                color: rgb(204, 0, 255)
+            }
+            #homepageparagraph {
+                color: rgb(194, 110, 0)
+            }
+            main {
+                padding-top: 70px;
+            }
+            #headeraboutme {
+                color: rgb(47, 0, 255)
+            }
+            #headername {
+                color: rgb(3, 72, 117)
+            }
+            #paragraphintroduction {
+                color: rgb(168, 109, 19)
+            }
+            #paragraphhobby {
+                color: magenta
+            }
+            fieldset {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            input {
+                font-family: inherit;
+            }
+            label {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            legend {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #labelfirstname {
+                color: rgb(111, 4, 160);
+            }
+            #fname {
+                background-color: rgb(176, 176, 236);
+            }
+            #labellastname {
+                color: rgb(13, 158, 127);
+            }
+            #lname {
+                background-color: rgb(241, 197, 102);
+            }
+            #labelemail {
+                color: rgb(151, 118, 47);
+            }
+            #email {
+                background-color: rgb(91, 223, 91);
+            }
+            #labelsubject {
+                color: rgb(5, 74, 204);
+            }
+            #subject {
+                background-color: rgb(235, 165, 168);
+            }
+            #labelmessage {
+                color: blue; 
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #message {
+                background-color: rgb(30, 255, 180);
+            }
